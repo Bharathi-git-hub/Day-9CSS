@@ -1,0 +1,101 @@
+body{
+    background-color: beige;
+}
+h1{
+    color: green;
+    background-color: beige;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    color: white;
+    background-color: coral;
+    font-style: italic;
+    text-align: center;
+    text-align: center;
+}
+#d1{
+    display: flex;
+    justify-content:space-evenly;
+}
+.d1{
+    border: 3px solid black;
+    width: 500px;
+    height: 250px;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    
+}
+.d1:hover{
+    border: 3px solid black;
+    width: 500px;
+    height: 250px;
+    transform: rotate(20deg) ;
+
+}
+.d1 > #img1{
+    width:50%;
+    transition-duration: 4s;
+    transition-delay: 2s;
+
+}
+#img1:hover{
+    border-radius: 30px;
+    transform: translate(110px);
+}
+.d2{
+    border: 3px solid black;
+    width: 350px;
+    height: 300px;
+    transition-property:all;
+}
+.d2:hover{
+    border: 3px solid black;
+    width: 400px;
+    height: 350px;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    background-color: aqua;
+    
+}
+.d2 > #img2{
+    width: 150px;
+    padding: 20px 20px;
+    margin: 10px;
+    transition-duration: 5s;
+    transition-delay: 2s;
+}
+#img2:hover{
+    width: 130px;
+    transform: scale(1.6);
+    
+}
+#d2{
+    display: flex;
+    justify-content:space-around;
+}
+.d3{
+    border: 3px solid black;
+    width: 300px;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    padding-left: 5px;
+}
+.d3:hover{
+    transform:skewX(35deg);
+    transform: skewY(15deg);
+    
+}
+.d4{
+    border: 3px solid black;
+    width: 250px;
+    transition-property:font-style,color;
+    
+}
+.d4:hover{
+    color:crimson;
+    font-style: italic;
+    transition-duration: 4s;
+    transition-delay: 2s;
+    transition-timing-function: ease-in-out;
+}
